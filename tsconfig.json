@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": false,
+        "strict": true,
+        "alwaysStrict": true,
+        "moduleResolution": "node",
+        "target": "ESNext",
+        "module": "commonjs",
+        "outDir": "dist",
+        "sourceMap": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/*",
+        "./global.d.ts"
+    ]
+}
